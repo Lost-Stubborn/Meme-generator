@@ -17,35 +17,31 @@ const questions = [
 const memeBank = [
   {
     mood: "low",
-    image:
-      "https://i.pinimg.com/564x/f1/29/26/f12926bce95f6621724fc173f2e3a98c.jpg",
+    image: "https://i.imgflip.com/3b3uda.jpg",
     caption: "When life gives you lemons and you don't even like lemonade."
   },
   {
     mood: "high",
-    image:
-      "https://i.pinimg.com/564x/3b/89/3f/3b893f10e177bbce18c8082a1a2bbfb9.jpg",
+    image: "https://i.imgflip.com/49evys.jpg",
     caption: "Vibing through life like deadlines don’t exist."
   },
   {
     mood: "stressed",
-    image:
-      "https://i.pinimg.com/564x/e2/32/4e/e2324e47dd4d62ea8d61a5d478f97c38.jpg",
+    image: "https://i.imgflip.com/4byg2z.jpg",
     caption: "Trying to stay calm while everything burns around you."
   },
   {
     mood: "relaxed",
-    image:
-      "https://i.pinimg.com/564x/ff/fd/02/fffd02444e1ae8163cbbe7f0d221c979.jpg",
+    image: "https://i.imgflip.com/4byg2z.jpg",
     caption: "Doing absolutely nothing and loving it."
   },
   {
     mood: "chaotic",
-    image:
-      "https://i.pinimg.com/564x/7e/53/95/7e5395fc9d1d75dbdf0f82a508d3c76e.jpg",
+    image: "https://i.imgflip.com/4byg2z.jpg",
     caption: "No plan. Just vibes. And chaos."
   }
 ];
+
 
 function App() {
   const [answers, setAnswers] = useState(Array(questions.length).fill(""));
